@@ -41,13 +41,6 @@
 
 <hr />
 
-<h3 align="left">My GitHub Streak Status:</h3>
-<p align="left">
-  <img src="https://streak-stats.demolab.com?user=Fatama-Bristy&theme=tokyonight&hide_border=false&border_radius=8" width="100%" alt="Fatama-Bristy Streak" />
-</p>
-
-<br />
-
 <h3 align="left">My GitHub Trophies:</h3>
 <p align="left">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
