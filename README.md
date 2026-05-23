@@ -19,9 +19,9 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/fatama bristy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="fatama bristy" height="30" width="40" /></a>
-<a href="https://fb.com/fatama binte bristy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="fatama binte bristy" height="30" width="40" /></a>
-<a href="https://instagram.com/fatama_bristy_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="fatama_bristy_" height="30" width="40" /></a>
+<a href="[https://linkedin.com/in/fatama bristy](https://www.linkedin.com/in/fatamabristy/)" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="fatama bristy" height="30" width="40" /></a>
+<a href="[https://fb.com/fatama binte bristy" target="blank](https://www.facebook.com/fatama.binta.bristy)"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="fatama binte bristy" height="30" width="40" /></a>
+<a href="[https://instagram.com/fatama_bristy_" target="blank](https://www.instagram.com/fatama_bristy_/)"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="fatama_bristy_" height="30" width="40" /></a>
   <br/>
 
   <h3 align="left">Other Accounts:</h3>
