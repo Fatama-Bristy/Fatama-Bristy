@@ -3,7 +3,7 @@
 <table border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td width="60%" valign="top">
-      <h3 align="left">Not just learning how to code — learning how to think, create, and solve problems. I’m passionate about technology, design, and turning small ideas into meaningful projects through consistency and dedication.</h3>
+      <h3 align="left">I am a beginner programmer and an aspiring Software Engineer. I love learning new things and solving code problems to sharpen my brain. Right now, I am focusing on building my base and learning web development step by step!</h3>
       <br />
       <p align="left"> <img src="https://komarev.com/ghpvc/?username=Fatama-Bristy&label=Profile%20views&color=0e75b6&style=flat" alt="fatama-bristy" /> </p>
       <ul>
