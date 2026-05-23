@@ -43,7 +43,7 @@
 
 <h3 align="left">My GitHub Streak Status:</h3>
 <p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Fatama-Bristy&theme=tokyonight" width="100%" alt="Fatama-Bristy Streak" />
+  <img src="https://streak-stats.demolab.com?user=Fatama-Bristy&theme=tokyonight&hide_border=false&border_radius=8" width="100%" alt="Fatama-Bristy Streak" />
 </p>
 
 <br />
@@ -54,8 +54,6 @@
     <img src="https://github-profile-trophy.vercel.app/?username=Fatama-Bristy&theme=juicyfresh&column=7&margin-w=15" alt="Fatama-Bristy GitHub Trophies" />
   </a>
 </p>
-
-<br />
 
 <br />
 
