@@ -1,0 +1,31 @@
+name: Generate arcade animation
+
+on:
+  schedule: # প্রতি ১২ ঘণ্টায় এটি নিজে নিজে রান হবে
+    - cron: "0 */12 * * *"
+  workflow_dispatch: # যাতে আপনি নিজে বাটন টিপে রান করতে পারেন
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      # ১. আপনার কন্ট্রিবিউশন গ্রিড থেকে প্যাকম্যান গেম তৈরি করবে
+      - uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: Fatama-Bristy
+          games: 'pacman'
+
+      # ২. তৈরি হওয়া প্যাকম্যান ফাইলটি 'pacman-output' নামক একটি নতুন ব্রাঞ্চে পুশ করবে
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: pacman-output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
