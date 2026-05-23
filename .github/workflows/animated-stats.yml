@@ -1,0 +1,32 @@
+name: Generate Animated Stats
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # প্রতি ১২ ঘণ্টায় অটো আপডেট হবে
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      # আপনার প্রোফাইলের জন্য অ্যানিমেটেড ট্রফি তৈরি করবে
+      - name: generate trophy.svg
+        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        with:
+          username: Fatama-Bristy
+          file: dist/trophy.svg
+          theme: dracula
+
+      # তৈরি হওয়া অ্যানিমেটেড ফাইলটি 'stats-output' ব্রাঞ্চে সেভ করবে
+      - name: push files to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: stats-output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
